@@ -16,7 +16,7 @@ git clone https://github.com/RamonPessoaDev/portfolio.git
 <br>
 
 ```
-3 - Acesse a pasta do projeto e abra ela com o gitbash/cmd, e digite o comando `npm install` para instalar as depêndencias 
+3 - Acesse a pasta do projeto e abra ela com o gitbash/cmd, e digite o comando `npm install` para instalar as depêndencias do projeto
 ```
 
 <br>
