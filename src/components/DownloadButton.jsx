@@ -4,7 +4,7 @@ const DownloadButton = () => {
 
         const link = document.createElement("a");
         link.href = curriculoPath;
-        link.download = "RamonPessoaDevP.pdf";
+        link.download = "RamonPessoaDevCV.pdf";
         link.click();
     };
 
