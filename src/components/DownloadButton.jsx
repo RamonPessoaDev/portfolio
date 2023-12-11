@@ -1,6 +1,6 @@
 const DownloadButton = () => {
     const downloadCV = () => {
-        const curriculoPath = "RamonPessoaDevP.pdf";
+        const curriculoPath = "RamonPessoaDevCV.pdf";
 
         const link = document.createElement("a");
         link.href = curriculoPath;
