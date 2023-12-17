@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
@@ -31,8 +31,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_hnsga8t',
-        'template_gqgk0aw',
+        'service_vtq1fcq',
+        'template_3f5kzjh',
         {
           from_name: form.name,
           to_name: "Ramon",
@@ -40,7 +40,7 @@ const Contact = () => {
           to_email: "darkloniosgames@hotmail.com",
           message: form.message,
         },
-        'g0tvTxTLXwoyph_fo'
+        'mgITpzlhrZYsAPIUs'
       )
       .then(
         () => {
